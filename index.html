@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>We Choice</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+
+    <script type="text/javascript" src="1.js"></script>
+
+    <link rel="stylesheet" href="1.css" />
+  </head>
+  <body>
+    <div class="circle">
+      <button id="open">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <h1>DIỆU KỲ VIỆT NAM - BÍCH PHƯƠNG x PHÚC DU X HIEUTHUHAI X GDUCKY</h1>
+        <small>Florin Pop</small>
+        <p>
+          Dùng một từ để miêu tả về năm 2020 của những con người Việt Nam, chỉ
+          có thể dùng một từ “Diệu Kỳ”. Đứng giữa đại dịch, gồng mình trước mọi
+          thiên tai, khi mọi thứ vẫn còn đang ngổn ngang bề bộn, tình yêu thương
+          con người Việt Nam như sợi dây gắn kết giữa người với người. Tình cảnh
+          càng khó khăn, thì tinh thần đùm bọc lẫn nhau của những người con dân
+          tộc Việt lại càng trở nên khăng khít hơn bao giờ hết. Giải cứu thanh
+          long, ATM gạo, cùng chống lũ miền Trung,... chính là những điều kỳ
+          diệu chỉ có thể tìm thấy tại mảnh đất hình chữ S. Tất cả những điều kỳ
+          diệu này được gói gọn trong hơn 4 phút của ca khúc Diệu Kỳ Việt Nam.
+          “Những con người +84 vẫn luôn giữ cái tính kiên trì”, bởi đó mà khó
+          khăn dường như làm cho tình người trở nên bền chặt hơn. Không một nơi
+          đâu trên thế giới, “hạt gạo làng tôi ở trong ATM”, người ta làm từ
+          thiện mà quên cả bản thân mình,... Nếu ai đó hỏi rằng “điều kỳ diệu
+          chỉ có ở trong truyền thuyết?”, thì ấy là “vẫn chưa biết tới Việt
+          Nam”, khi giữa khó khăn thách thức lại càng ấm áp và bình an!
+        </p>
+
+        <img
+          src="https://i.ytimg.com/vi/BkUSfsfGmfM/maxresdefault.jpg"
+          alt="doggy"
+        />
+        <iframe
+          width="100%"
+          height="500px"
+          src="https://www.youtube.com/embed/BkUSfsfGmfM?autoplay=1&cc_load_policy=1"
+          frameborder="0"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><i class="fas fa-home"></i> Home</li>
+        <li><i class="fas fa-user-alt"></i> About</li>
+        <li><i class="fas fa-envelope"></i> Contact</li>
+      </ul>
+    </nav>
+  </body>
+  <script>
+    const container = document.querySelector(".container");
+    const open = document.querySelector("#open");
+
+    open.addEventListener("click", () => {
+      container.classList.toggle("active");
+    });
+  </script>
+</html>
